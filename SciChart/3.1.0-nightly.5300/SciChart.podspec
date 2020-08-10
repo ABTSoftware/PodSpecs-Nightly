@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.license = { :type => "Commercial", :file => "LICENSE.txt" }
 
     spec.platform = :ios
-    spec.source = { :http => "https://github.com/ABTSoftware/PodSpecs3.x/releases/download/#{spec.version}/SciChart_iOS_#{spec.version}.zip" }
+    spec.source = { :http => "https://github.com/ABTSoftware/PodSpecs-Nightly/releases/download/#{spec.version}/SciChart_iOS_#{spec.version}.zip" }
     spec.frameworks = "Metal", "OpenGLES", "UIKit"
 
     spec.ios.deployment_target = "8.0"
